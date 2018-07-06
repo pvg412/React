@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+img {
+  display: block;
+  margin: auto;
+  border-radius: 2%;
+}
+
+/*ul в MovieCard*/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: black;
+}
+
+/*li в MovieCard*/
+.item {
+  list-style: none;
+  margin: 5px;
+  flex-basis: 20%;
+  background-color: yellow;
+  color: black;
+  padding: 5px;
+  border-radius: 1%;
+}
+
+/*title в MovieCard*/
+.movie-name {
+  text-align: center;
+}
+
+/*rating*/
+.movie-rating {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+.header {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.header-item {
+  list-style: none;
+}
+
+.error {
+  text-align: center;
+}
+
+.header-menu {
+  display: flex;
+}
+
+.nav-link {
+  margin-right: 50px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.nav-link:last-child {
+  margin-right: 0px;
+}
